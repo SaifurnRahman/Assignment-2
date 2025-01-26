@@ -5,7 +5,7 @@
     --secColor :#01ACFD;
     --grayColor:rgb(27, 27, 27);
 }
-*{
+* {
     box-sizing: border-box;
     font-family: "Quicksand", serif;
 }
@@ -119,7 +119,7 @@ body{
 .curriculum{
     background-image: url(Resource/bg.png);
     background-repeat:repeat;
-    background-size:contain;
+    background-size:cover;
 }
 
 .section-title{
@@ -413,5 +413,9 @@ body{
         }
         .header-image{
             padding: 20px;
+        }
+        .stories-section, .footer {
+            max-width: 100%;
+            
         }
     }
