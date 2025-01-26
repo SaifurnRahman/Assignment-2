@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+:root{
+    --primaryColor :#FEA301;
+    --secColor :#01ACFD;
+    --grayColor:rgb(27, 27, 27);
+}
+/* share style */
+
+.diplay-flex{
+    display: flex;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+}
+/* Navigation style */
+.header{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.nav{
+    
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    align-items: center;
+    gap: 10px;
+}
+.logo image {
+   max-width: 100%;
+}
+.logo h3 {
+    font-size: 1.5rem;
+}
+
+.nav-items{
+    list-style: none;
+    
+}
+.nav-items li {
+    margin-right: 20px;
+
+
+}
+.nav-items li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+.home{
+    color: #FEA301;
+}
+.about{
+    color:#01ACFD;
+}
+.facilities{
+    color:#05D4DF;
+}
+.admission{
+    color:#5D58EF;
+}
+.contact{
+    background: var(--primaryColor);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+.nav .menu{
+    display: none;
+}
+
+/* header section style */
+.header-section{
+    align-items: center;
+    gap: 50px;
+}
+.header-title{
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+.Empowering{
+    color: #FEA301;
+}
+.towards{
+    color: #01ACFD;
+}
+.header-discription{
+    margin-top: 15px;
+    font-weight: 500;
+}
+.primary-btn{
+    background: black;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    border: 0px;
+}
+
+@media screen and (max-width: 576px) {
+    .logo h3, .nav-items, .contact{
+        display: none;
+    }
+    .nav .menu{
+        display:  block;
+    }
+}
