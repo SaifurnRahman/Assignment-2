@@ -106,7 +106,7 @@ body{
     border: 0px;
 }
 .header-image img {
-    /* width: 100%; */
+    width: 100%;
 }
 /* section styles */
 .curriculum{
@@ -390,4 +390,19 @@ body{
         margin-top: 0px;
     }
         
+    }
+
+    @media screen and (max-width: 415px){
+        .small-card-item{
+            width: 100%;
+            display:grid;
+            grid-template-columns: 300px;
+            gap: 20px;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+        }
+        .header-image{
+            padding: 20px;
+        }
     }
